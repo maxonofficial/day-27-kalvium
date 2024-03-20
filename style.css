@@ -1,0 +1,21 @@
+body {
+  background-color: antiquewhite;
+}
+
+.gallery {
+  padding: 1vh 1vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;  
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 10px;
+	border: calc(8px + 0.2vw) solid transparent;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
